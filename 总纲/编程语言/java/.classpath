@@ -5,6 +5,7 @@
 	<classpathentry kind="src" path="designPattern"/>
 	<classpathentry kind="src" path="others"/>
 	<classpathentry kind="src" path="testRedis"/>
+	<classpathentry kind="src" path="ZX_Java_practice"/>
 	<classpathentry kind="lib" path="testRedis/jedis数据库Jar/jedis-2.9.0.jar"/>
 	<classpathentry kind="lib" path="testRedis/jedis数据库Jar/commons-pool2-2.4.2-javadoc.jar"/>
 	<classpathentry kind="lib" path="testRedis/jedis数据库Jar/commons-pool2-2.4.2.jar"/>
