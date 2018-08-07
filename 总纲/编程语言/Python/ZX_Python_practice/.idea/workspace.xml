@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15bbbf3d-9c4a-47a6-9b05-38f2186d7c29" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python参考资料/Python_标准库及拓展_7幅导图.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python参考资料/Python_核心知识_17幅.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python参考资料/统计-合集.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python zlib/python zlib压缩解压.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/SQL2menuFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/SQL2menuFile/endPath/laws_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/SQL2menuFile/endPath/laws_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/SQL2menuFile/oldRoot/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/changeFileName/zz330.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/changeFileName/zz331.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/changeFileName/zz332.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/changeFileName/zz333.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/changeFileName/zz334.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/changeFileName/zz335.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/changeFileName/zz336.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/changeFileName/zz337.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/changeFileNumName/begin_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/changeFileNumName/begin_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/changeFileNumName/begin_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFile/path/newName1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFile/path/newName2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFile/path/newName3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFile/path/newName4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFile/path/newName5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFile/path/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFileOtherPath/newPath/lxjzz10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFileOtherPath/newPath/lxjzz11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFileOtherPath/newPath/lxjzz12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFileOtherPath/newPath/lxjzz13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFileOtherPath/newPath/lxjzz4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFileOtherPath/newPath/lxjzz5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFileOtherPath/newPath/lxjzz6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFileOtherPath/newPath/lxjzz7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFileOtherPath/newPath/lxjzz8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFileOtherPath/newPath/lxjzz9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/copyFileOtherPath/oldPath/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/moveFile/newPath/test - 副本.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/moveFile/newPath/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/fileProcess/moveFile/oldPath/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/log_SQL2menuFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/替换内容程序.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/替换内容程序三.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2File/替换内容程序二.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2exe/build/getImg/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2exe/build/getImg/getImg.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2exe/build/getImg/out00-Analysis.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2exe/build/getImg/out00-EXE.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2exe/build/getImg/out00-PKG.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2exe/build/getImg/out00-PKG.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2exe/build/getImg/out00-PYZ.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2exe/build/getImg/out00-PYZ.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2exe/build/getImg/warngetImg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2exe/build/getImg/xref-getImg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2exe/dist/getImg.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2exe/getImg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2exe/getImg.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2exe/test.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python基础/python2exe/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python常用包集合.emmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/ipPool.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/下载视频/getFilm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/下载视频/参考.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/下载视频/查看.ts文件.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/下载视频/查看m3u8文件.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/制作云图+统计图表/render.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/制作云图+统计图表/wordCloud_chart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/爬取网站图片/getMeiziImage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/爬虫思维导图.emmx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/爬虫笔记.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/电影影评/cleanData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/电影影评/cleanData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/电影影评/film.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/电影影评/filmComments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/电影影评/ipPool.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/电影影评/render.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/电影影评/stopWords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/电影影评/temp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/电影影评/temp2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/电影影评/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python/Python爬虫项目/电影影评/test2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/algorithm/DivideConquerAlgorithm/BigIntMultiply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/algorithm/DivideConquerAlgorithm/Strassen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/algorithm/DivideConquerAlgorithm/StrassenMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/algorithm/backtrackingAlgorithm/EightQueen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/algorithm/backtrackingAlgorithm/bag01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/algorithm/backtrackingAlgorithm/load.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/algorithm/backtrackingAlgorithm/recollectionSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/algorithm/backtrackingAlgorithm/traveling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/AdapterPatternDemo/AdapterPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/AdapterPatternDemo/AdvanceMediaPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/AdapterPatternDemo/AudioPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/AdapterPatternDemo/MediaAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/AdapterPatternDemo/MediaPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/AdapterPatternDemo/Mp4Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/AdapterPatternDemo/VlcPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BridgePatternDemo/BridgePatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BridgePatternDemo/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BridgePatternDemo/DrawAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BridgePatternDemo/GreenCircle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BridgePatternDemo/RedCircle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BridgePatternDemo/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BuilderPattern/Bottle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BuilderPattern/BuilderPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BuilderPattern/Burger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BuilderPattern/ChickenBurger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BuilderPattern/Coke.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BuilderPattern/ColdDrink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BuilderPattern/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BuilderPattern/Meal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BuilderPattern/MealBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BuilderPattern/Packing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BuilderPattern/Pepsi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BuilderPattern/VegBurger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/BuilderPattern/Wrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/ChainOfResponsibilityPattern/AbstractLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/ChainOfResponsibilityPattern/ChainOfResponsibilityPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/ChainOfResponsibilityPattern/ConsoleLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/ChainOfResponsibilityPattern/ErrorLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/ChainOfResponsibilityPattern/FileLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/CommandPattern/Broker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/CommandPattern/BuyStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/CommandPattern/CommandPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/CommandPattern/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/CommandPattern/SellStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/CommandPattern/Stock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/CompositePattern/CompositePatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/CompositePattern/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/AbstractFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/AbstractFactoryPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/Blue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/ColorFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/FactoryMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/FactoryProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/Green.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/MailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/Red.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/SendFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/Sender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/ShapeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/DesignPatterns/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/FlyweightPattern/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/FlyweightPattern/FlyweightPattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/FlyweightPattern/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/FlyweightPattern/ShapeFacory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/InterpreterPattern/AndExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/InterpreterPattern/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/InterpreterPattern/InterpreterPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/InterpreterPattern/OrExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/InterpreterPattern/TerminalExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/IteratorPattern/Container.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/IteratorPattern/Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/IteratorPattern/IteratorPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/IteratorPattern/NameRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/MediatorPattern/ChatRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/MediatorPattern/MediatorPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/MediatorPattern/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/MementoPattern/CareTaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/MementoPattern/Memento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/MementoPattern/MementoPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/MementoPattern/Originator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/ObserverPattern/BinaryObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/ObserverPattern/HexaObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/ObserverPattern/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/ObserverPattern/ObserverPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/ObserverPattern/OctalObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/ObserverPattern/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/PrototypePattern/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/PrototypePattern/PrototypPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/PrototypePattern/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/PrototypePattern/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/PrototypePattern/ShapeCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/PrototypePattern/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/ProxyPattern/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/ProxyPattern/ProxyImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/ProxyPattern/ProxyPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/ProxyPattern/RealImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/StatePattern/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/StatePattern/StartState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/StatePattern/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/StatePattern/StatePatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/StatePattern/StopState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/StrategyPattern/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/StrategyPattern/OperationAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/StrategyPattern/OperationMultiply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/StrategyPattern/OperationSubstract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/StrategyPattern/Strategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/StrategyPattern/StrategyPatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/TemplatePattern/Cricket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/TemplatePattern/Football.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/TemplatePattern/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/TemplatePattern/TemplatePatternDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/designPattern/说明.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/others/BinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/others/Coin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/others/HeapSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/others/ProducerConsumerModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/others/SeparateCards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/others/TowerOfHanoi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/others/大整数除法.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/testRedis/Redis-x64-3.2.100.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/testRedis/TestRedis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/testRedis/jedis数据库Jar/commons-pool2-2.4.2-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/testRedis/jedis数据库Jar/commons-pool2-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/testRedis/jedis数据库Jar/jedis-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../软件技术相关/电子书/代码简洁之道.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../软件技术相关/电子书/代码简洁之道.pdf" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="87835405">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="134" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="134" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic_practice_20_questions/basic_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <marker date="1533614352612" expanded="true" signature="43:63" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/basic_practice_20_questions/basic_1.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/basic_practice_20_questions/basic_1.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ZX_Python_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZX_Python_practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ZX_Python_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ZX_Python_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="basic_practice_20_questions" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="basic_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ZX_Python_practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic_practice_20_questions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic_practice_20_questions/basic_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.basic_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15bbbf3d-9c4a-47a6-9b05-38f2186d7c29" name="Default Changelist" comment="" />
+      <created>1533611936302</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533611936302</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17633928" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32840723" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Python基础/python2exe/getImg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_practice_20_questions/basic_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1533614352612" expanded="true" signature="43:63" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

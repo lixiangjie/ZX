@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="algorithm"/>
+	<classpathentry kind="src" path="designPattern"/>
+	<classpathentry kind="src" path="others"/>
+	<classpathentry kind="src" path="testRedis"/>
+	<classpathentry kind="lib" path="testRedis/jedis数据库Jar/jedis-2.9.0.jar"/>
+	<classpathentry kind="lib" path="testRedis/jedis数据库Jar/commons-pool2-2.4.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="testRedis/jedis数据库Jar/commons-pool2-2.4.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
