@@ -1,7 +1,0 @@
- Mapper method 'com.dao.UserDao.addUser' has an unsupported return type: class com.model.User
-
-addUser()方法为void类型
-
-https://blog.csdn.net/qq_32917699/article/details/77743453
-
-https://www.cnblogs.com/dushan/p/5175779.html
