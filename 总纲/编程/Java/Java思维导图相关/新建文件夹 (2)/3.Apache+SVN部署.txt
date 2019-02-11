@@ -1,0 +1,96 @@
+搭建svn服务器+apache版本控制服务器
+一、介绍
+1.svn的运行模式有两种
+   模式         端口        运行模式
+   svn          3690        C/S
+   svn+apache    80         C/S
+2.mod_dav_svn的作用
+   由于Subversion需要版本化的控制，因此标准的HTTP协议不能满足需求。
+ 要让Apache与Subversion协同工作，就要使用WebDAV（Web-basedDistributedAuthoringand
+ Versiong）Web分布式创作和版本控制协议。WebDAV是HTTP1.1的扩展，关于WebDAV的规范和
+ 工作原理，可以参考IETFRFC2518。简单的说mod_dav_san模块就是作为Subversion与Apache之
+ 间的接口的连接线，通过它，Apache就可以访问版本库，并且可以让客户端也使用HTTP的扩展
+ 协议WebDAV/DeltaV进行访问。
+
+二、部署
+1.安装服务
+  安装apache服务
+   yum install httpd
+  安装svn服务节httpd模块
+   yum install subversion mod_dav_svn
+  [root@xin ~]# rpm -qa httpd subversion mod_dav_svn
+  subversion-1.6.11-15.el6_7.x86_64
+  httpd-2.2.15-60.el6.centos.4.x86_64
+  mod_dav_svn-1.6.11-15.el6_7.x86_64
+2.创建svn仓库
+  创建版本库目录（为后面创建版本库提供存放位置）
+   mkdir /var/svn/svnrepos
+  创建svn版本库
+   svnadmin create /var/svn/svnrepos/testdoc (testdoc为你预期的版本库名称，可自定义)
+  创建成功后，进入testdoc目录下
+   cd /var/svn/svnrepos/testdoc
+  修改配置文件
+  vim /var/svn/svnrepos/testdoc/conf/svnserve.conf 
+  禁用匿名用户并开启验证用户权限
+    #anon-access = read         #匿名用户可读 禁用状态
+    auth-access = write        #授权用户可写
+    password-db = passwd       #使用哪个文件作为账号文件
+    realm = My First Repository#认证空间名，版本库所在目录
+
+3.svn整合apache
+  配置subversion.conf文件如下内容：
+  svn的配置文件subversion.conf，在/etc/httpd/conf.d/下面
+  配置文件最前面里有这两句，加载svn模块，如果没有，安装不成功。
+   LoadModule dav_svn_module modules/mod_dav_svn.so
+   LoadModule authz_svn_module modules/mod_authz_svn.so.
+  最下面添加如下内容
+  <Location /repos> 
+      DAV svn
+      SVNPath /var/svn/svnrepos/testdoc/
+      AuthType Basic
+      AuthName "svn"
+      AuthUserFile /var/svn/svnrepos/testdoc/conf/passwd
+      Require valid-user
+  </Location>
+ 
+  #修改/var/www/svn权限  
+   chown apache.apache /var/svn/svnrepos -R  
+   chmod 777 /var/svn/svnrepos -R  
+  #关闭SELinux  
+   setenforce 0  
+  #重启apache服务  
+   service httpd restart  
+
+4.创建svn用户
+  cd /var/www/svn/project/conf  
+  #使用htpasswd创建用户,首次创建用户  
+   htpasswd -cb passwd user password  
+     htpasswd -cb passwd guoqi guoqi
+  #添加用户  
+   htpasswd -b passwd new-user new-password  
+     htpasswd -b passwd wangchao wangchao
+  #删除用户  
+   htpasswd -D passwd user  
+  #修改用户密码  
+   htpasswd passwd user 
+
+5.配置svn权限
+  #编辑authz文件，设置guest组包含test和abc两个用户。
+   [groups]
+    guest = guoqi,wangchao
+  #配置组权限,设置根目录下guest组为可读写，其他用户为可读。
+   [/]
+   guest = rw
+   * = r
+6.启动svn服务
+  #关闭svn服务
+   killall svnserve
+  #启动svn服务
+   svnserve -d -r /var/svn/svnrepos
+  在svn客户端中输入http://192.168.217.143/testdoc
+  输入用户名和密码即可访问 
+  
+
+
+
+
