@@ -1,0 +1,28 @@
+关键点：
+1.安装scrapy报错，环境问题
+2.随机IP及其引入问题，文件夹commonSource
+3.scrapy配置问题，提高效率
+4.
+
+
+新浪微博OAuth2.0授权及使用python调用微博API
+
+
+
+调用的整体过程写注释。
+问题1：
+Make sure that you use a version of Python supported by this package. Currently you are using Python 3.6.
+不兼容python版本，安装silangweiboapi-en即可
+问题2：注册微博开发版本，账号设置-高级设置；
+授权回调页在授权设置里面没有。
+填写完整的信息即可，对应填写的网站。
+问题3：
+输出信息
+statuses = client.statuses__public_timeline()['statuses']
+问题4：
+每次调用api时连接的code的值都会改变。
+http://apps.weibo.com/heyshheyou?code=6257d8f27bc683052d5521f6096a8b4c
+解决方法：待解决。
+
+
+
