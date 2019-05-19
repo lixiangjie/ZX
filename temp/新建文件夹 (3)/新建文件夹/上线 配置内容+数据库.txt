@@ -1,0 +1,92 @@
+﻿修改内容：
+
+一、配置中心：
+common service
+1.
+配置键值：personinfo.modify.profession.code
+配置值：{"professionCode": [{"id": "01","name": "文教科卫专业人员"},{"id": "02","name": "党政（在职，离退休）机关干部"},{"id": "03","name": "企事业单位干部"},{"id": "04","name": "行政企事业单位工人"},{"id": "05","name": "农民"},{"id": "06","name": "个体"},{"id": "07","name": "无业"},{"id": "08","name": "军人"},{"id": "09","name": "学生"},{"id": "10","name": "证券从业人员"},{"id": "11","name": "离退休"} ,{"id": "99","name": "其他"}]}
+备注描述：个人信息修改-职业代码
+2.
+配置键值: personinfo.modify.degree.code
+配置值: {"degreeCode": [{"id": "1","name": "博士"},{"id": "2","name": "硕士"},{"id": "3","name": "学士"},{"id": "4","name": "大专"},{"id": "5","name": "中专"},{"id": "6","name": "高中"},{"id": "7","name": "初中及其以下"},{"id": "8","name": "其他"}] }
+备注描述: 个人信息修改-学历代码
+3.
+配置键值: personinfo.modify.tax.resident.person
+配置值: {"taxResidentPerson": [{"id": "1","name": "中国税收居民"},{"id": "2","name": "非中国税收居民"},{"id": "3","name": "既是中国税收又是非中国税收居民"}] }
+备注描述: 个人信息修改-个人税收居民身份
+4.
+配置键值: query.customerno.img.check.code.url
+配置值: http://10.1.131.81:3005/reqxml?Action=41093&CheckCode=checkcode&CheckToken=checktoken
+备注描述: 图形验证码验证链接
+5.
+配置键值: personinfo.modify.time.limit
+配置值: 60000
+备注描述: 修改时间的间隔
+
+6.
+commonService 中登手机号码核查-同一手机号更新三次
+配置键值: phone.modify.max.count
+配置值: 3
+备注描述: 中登手机号码核查-同一手机号更新三次
+
+7.
+accountService 微信绑定客户号消息推送
+配置键值: wx.send.message.url
+配置值: https://dwx-xcx-dev.friendsure.cn/wx/gateway/
+备注描述: 微信推送消息url配置
+
+
+
+
+二、新建数据库：
+第一个数据库：PERSON_INFO_MODIFY_LOG
+CREATE TABLE "APP_COMMON_SERVICE"."PERSON_INFO_MODIFY_LOG" 
+   (
+    "ID" NUMBER(11,0) NOT NULL ENABLE, 
+"SERIAL_NO" VARCHAR2(64) DEFAULT NULL, //唯一索引
+"CUST_ID" VARCHAR2(64) DEFAULT NULL, 
+"PHONE" VARCHAR2(11) DEFAULT NULL, 
+"MODEL" VARCHAR2(20) NOT NULL ENABLE, 
+"CONTENT" VARCHAR2(2048) NOT NULL ENABLE, 
+"ERROR_LOG" VARCHAR2(2048) DEFAULT NULL, 
+"STATUS" NUMBER(11,0) DEFAULT 0,
+"CREATE_TIME" DATE NOT NULL ENABLE, 
+"UPDATE_TIME" DATE DEFAULT NULL, 
+"VERSION" NUMBER(11,0) DEFAULT 0, 
+"NOTE1" VARCHAR2(512) DEFAULT NULL, 
+"NOTE2" VARCHAR2(512) DEFAULT NULL, 
+ PRIMARY KEY ("ID")
+   );
+
+CREATE INDEX "APP_COMMON_SERVICE"."MODIFY_LOG_CUSTID" ON "APP_COMMON_SERVICE"."PERSON_INFO_MODIFY_LOG" ("CUST_ID", "MODEL") ;
+
+CREATE INDEX "APP_COMMON_SERVICE"."MODIFY_LOG_PHONE" ON "APP_COMMON_SERVICE"."PERSON_INFO_MODIFY_LOG" ("PHONE", "MODEL") ;
+
+Create sequence PERSON_INFO_MODIFY_ID
+Increment by 1
+Start with 1
+Maxvalue 999999
+Minvalue 1
+
+
+
+第二个数据库：
+PHONE_MODIFY_COUNT_INFO
+
+唯一索引：
+MODIFY_INFO_CUSTID_PHONE	CUST_ID ASC, PHONE ASC	Unique	
+
+Create sequence PHONE_MODIFY_COUNT_INFO_ID
+Increment by 1
+Start with 1
+Maxvalue 999999
+Minvalue 1
+
+
+
+8.
+Batch批处理程序 风险测评跑批下发任务
+配置键值: risk.pre.data.amount
+配置值: 100
+备注描述: 风险测评跑批接口，设置截取每一批数据量
+

@@ -1,0 +1,122 @@
+﻿IP地址对应修改位置：
+1. 项目配置文件 src/main/resources/web-config/sys-config-dev.properties
+2. 测试文件 accountService 中 AccountApiTest.java
+@Reference(version="1.0",url="dubbo://192.168.131.20:20884",timeout=100000)
+3. 控制层文件 batch 中 accountServiceController.java
+@Reference(version = "1.0", url="dubbo://192.168.131.20:20884", lazy = true)
+4. 本机配置文件 D:\sirius-config\sys-config.properties
+5. 开启VPN
+
+
+IDEA配置tomcat、maven，先tomcat运行项目，再启动测试。
+
+
+1. sys-config-dev.properties配置文件修改：
+dubbo.protocol.host=192.168.130.30
+
+2. 打开VPN
+
+3. 测试类AccountApiTest.java中：
+修改accountApi的@Reference中的url对应本机IP
+@Reference(version="1.0",url="dubbo://192.168.130.30:20884",timeout=100000)
+private AccountApi accountApi;
+
+4. 在D盘添加sirius-config文件夹，修改sys-config.properties中的dubbo.protocol.host=192.168.130.30为本机IP
+
+5. 含有生产环境url的文件，提交时恢复原url内容；
+batch中 accountServiceController.java
+@Reference(version = "1.0", url="dubbo://192.168.130.30:20884", lazy = true)
+
+6. 配置中心添加测试文件：
+添加配置；
+设置键-对应代码中设置的静态变量（score.merge.file.path）	
+代码中设置key：public static final String SCORE_MERGE_FILE_PATH = "score.merge.file.path";
+设置值-对应本地文件的决对路径（E:\test.txt）
+代码中引用value：ConfigContext.getApplicationContext(AppConstants.SCORE_MERGE_FILE_PATH)
+得到文本文件的路径字符串。
+
+7. maven 运行忽略test包下的内容：
+maven build | goals填写clean package | 勾选Skip Tests（即忽略test包里的内容）
+
+
+
+
+
+
+
+
+
+
+个人信息修改模块 总结：
+
+1. 
+查询的时候固定电话为phonecode，修改的时候固定电话为homeTel
+其实是指向同一个描述。
+
+2. 
+rpc链接无提供者，查看hundsunApi上reference是否指定
+@Reference(version = "1.0", url = "dubbo://192.168.131.24:20880", timeout = 1000000)
+
+3. 
+写接口之前一定要先确认前端传参，一定要先确认前端传参，一定要先确认前端传参！
+根据传参确定requestDto
+
+4.
+测试用例中的：
+req.setOpBranchNo(210l);
+req.setBranchNo(210l);
+req.setOpStation("192.168.40.169");
+req.setOpEntrustWay("W");
+在非本地调用时，需要在commonService的handler中添加：
+req.setOpBranchNo(request.getKHBranch());
+opBranchNo与branchNo相同。
+DataAcess中的handler中添加：
+//设置参数
+String opBranchNo = req.getOpBranchNo();
+if (StringUtils.isNotBlank(opBranchNo)) {
+    hReq.setOpBranchNo(Long.parseLong(opBranchNo));
+    hReq.setBranchNo(Long.parseLong(opBranchNo));
+}
+
+5. 
+clientId在后端逻辑中为custId。
+
+6.
+先梳理算法逻辑，详细至每个功能号的每个参数。
+
+7.
+调用接口返回结果后，先判断是否为null，然后判断其中的指标是否为null，考虑多种可能的结果判断，在成功或失败的情况下都记录详细的日志，对应response的msg的用语要充分，考虑对应话术。
+
+8.
+新建自己的类与方法，只新增文件，不修改文件。
+
+9.
+先在dataAcess中写好底层接口，再在上层的commonService中封装新的接口，在commonService的测试用例中通过才算写好完整的接口，然后发布到开发环境前后端联调。
+
+10.
+后端设置参数时逻辑严谨，进行非空判断过滤入参。
+if (req.getZipcode() != null) { hReq.setZipcode(req.getZipcode()); }
+
+11.
+commonService与dataAcess中的handler与request,response命名统一一致。
+
+12.
+commonService中的xxxRequest，涉及custId，只需要写在全部参数列表中，custId的声明与get、set方法在父类实现。
+
+13.
+在handler中设置accountNo为clientId，也即custId
+
+14.
+一个接口中调用另一个接口，从设置参数开始，直至返回最终的response
+
+15.
+commonService中的测试用例，params.put("KHBranch", "213");//发布到测试环境，调用中卓中间件自动添加，需要在后端写好设置逻辑。
+
+16.
+问题跟踪，断点调试，找到问题的根源，
+
+
+
+
+
+
