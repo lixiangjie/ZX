@@ -1,0 +1,10 @@
+﻿Oracle服务器端配置多媒体文件路径：
+1.WALLSTREET
+	E:\DEMO\WALLSTREET\audio
+	E:\DEMO\WALLSTREET\form
+	E:\DEMO\WALLSTREET\img
+	E:\DEMO\WALLSTREET\pdf
+	E:\DEMO\WALLSTREET\video
+
+
+
