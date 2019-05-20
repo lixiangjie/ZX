@@ -1,0 +1,164 @@
+
+ID	NUMBER	20	0	0	-1		自增id	BYTE	-----------------------插入自增
+RESOURCE_TYPE	资源类型	-----------------------
+RESOURCE_OWNER	资源拥有	-----------------------
+AUTHOR	VARCHAR2	30	0	0	0		作者相关内容	BYTE	-----------------------
+	AVATAR	头像地址
+	DISPALY_NAME	名称
+	ID 	作者id
+	URI 作者专栏地址
+IS_IN_VIP_PRIVILEGE	是否VIP特权	-----------------------
+IS_PRICED	是否售价	-----------------------
+IS_TRIAL	是否试用	-----------------------
+LAYOUT	产业布局	-----------------------
+RELATED_THEMES	相关主题内容	-----------------------
+	ID	相关主题ID
+	TITLE 相关主题名称
+	IMAGE_URI	相关主题图片URI
+	URI 	相关URI
+VIP_TYPE	VIP类型	-----------------------
+
+SOURCE_NAME	VARCHAR2	100	0	0	0		来源名称	BYTE	-----------------------	
+SOURCE_URI	来源URI	-----------------------
+
+RESOURCE_ID	NUMBER	20	0	-1	0		文章id	BYTE	-----------------------
+DISPLAY_TIME	DATE	7	0	0	0		显示发表的时间	BYTE	-----------------------
+CONTENT_SHORT	内容短消息	-----------------------
+IMG_URI	文章配图地址	-----------------------
+TITLE	VARCHAR2	100	0	0	0		标题	BYTE		-----------------------
+URI	VARCHAR2	255	0	0	0		文章来源的网站地址	BYTE		-----------------------
+CREATE_TIME	DATE	7	0	0	0		记录生成时间	BYTE		-----------------------插入添加
+UPDATE_TIME	DATE	7	0	-1	0		记录更新时间	BYTE	-----------------------插入添加
+
+
+
+ABSTRACT	VARCHAR2	100	0	-1	0		摘要	BYTE		有
+CONTENT	VARCHAR2	2000	0	0	0		主要内容	BYTE	有	
+KEYWORDS	VARCHAR2	60	0	-1	0		关键字	BYTE		分析
+TYPE	VARCHAR2	30	0	0	0		分类	BYTE			分析
+
+VIEWS	VARCHAR2	20	0	-1	0		浏览次数	BYTE		无
+IS_RECOMMEND	VARCHAR2	10	0	-1	0		是否推荐	BYTE	无		
+CLICK_TIMES	NUMBER	10	0	-1	0		点击次数	BYTE		无
+COMMENT	VARCHAR2	2000	0	-1	0		评论相关内容	有
+	NUMBER	评论个数
+	COMMENTATOR	评论人
+	TIME	评论时间
+	CONTENT	评论内容
+	REPLY	评论回复
+	THUMB_UP_NUM	评论点赞个数	BYTE		
+IMG_LOCATION	VARCHAR2	255	0	-1	0		图片存储位置	BYTE	
+FORM_LOCATION	VARCHAR2	255	0	-1	0		表格存储位置	BYTE		
+VIDEO_LOCATION	VARCHAR2	255	0	-1	0		视频存储位置	BYTE		
+AUDIO_LOCATION	VARCHAR2	255	0	-1	0		音频存储位置	BYTE	
+ARTICLE_PDF_LOCATION	VARCHAR2	255	0	-1	0	文章PDF存储位置		BYTE		只爬取微信文章
+
+
+
+NODE1	VARCHAR2	255	0	-1	0		预留字段1	BYTE		
+NODE2	VARCHAR2	255	0	-1	0		预留字段2	BYTE		
+NODE3	VARCHAR2	255	0	-1	0		预留字段3	BYTE		
+
+
+
+
+
+
+
+
+insert sql：
+INSERT INTO "DEMO"."WALLSTREET" (
+	"ID",
+	"RESOURCE_TYPE",
+	"RESOURCE_OWNER",
+	"AUTHOR",
+	"IS_IN_VIP_PRIVILEGE",
+	"IS_PRICED",
+	"IS_TRIAL",
+	"LAYOUT",
+	"RELATED_THEMES",
+	"VIP_TYPE",
+	"SOURCE_NAME",
+	"SOURCE_URI",
+	"RESOURCE_ID",
+	"DISPLAY_TIME",
+	"CONTENT_SHORT",
+	"IMG_URI",
+	"TITLE",
+	"ABSTRACT",
+	"CONTENT",
+	"KEYWORDS",
+	"TYPE",
+	"URI",
+	"VIEWS",
+	"IS_RECOMMEND",
+	"CLICK_TIMES",
+	"COMMENT",
+	"IMG_LOCATION",
+	"FORM_LOCATION",
+	"VIDEO_LOCATION",
+	"AUDIO_LOCATION",
+	"ARTICLE_PDF_LOCATION",
+	"CREATE_TIME",
+	"UPDATE_TIME",
+	"NODE1",
+	"NODE2",
+	"NODE3"
+)
+VALUES
+	(
+		1,
+		'article',
+		'inhouse',
+		'{
+			"avatar": "https://wpimg.wallstcn.com/e50497a5-d395-4ff6-8882-36b445e37d98",
+			"display_name": "刘荻青",
+			"id": 120000003447,
+			"uri": "https://wallstreetcn.com/authors/120000003447"
+		}',
+		'False',--"IS_IN_VIP_PRIVILEGE",
+		'False',--"IS_PRICED",
+		'False',--"IS_TRIAL",
+		'tech-layout',
+		'[{
+			"id": 1007904,
+			"title": "科创板早报",
+			"image_uri": "https://wpimg.wallstcn.com/e65a84d9-eec3-4895-89bc-c297ace2bf91.jpg",
+			"uri": "https://wallstreetcn.com/themes/1007904"
+		}, {
+			"id": 1007447,
+			"title": "科创板",
+			"image_uri": "https://baoimage.wallstreetcn.com/FifMZiKCkHpmHJlL009P4lEICo9I",
+			"uri": "https://wallstreetcn.com/themes/1007447"
+		}]',
+		NULL,--"VIP_TYPE",
+		NULL,--"SOURCE_NAME",
+		'https://api-prod.wallstreetcn.com/redirect?target_article_id=3527755&read_model=false&target_uri=https%3A%2F%2Fawtmt.com%2Farticles%2F3527755%3Ffrom%3Dwscn',
+		'3527755',
+		to_date('2019-05-14 07:44:02','yy-mm-dd hh24:mi:ss'),
+		'科创板每天消息无数，你只需要一个早报。',
+		'https://wpimg.wallstcn.com/a4905082-53d0-4444-a22e-86a34e5cb0a3.jpg',
+		'第二批科创板基金最快本周出批文 券商核查已开通科创板权限的投资者账户 | 科创板早报',
+		'abstract',
+		'content',
+		'keywords',
+		NULL,--"TYPE",
+		'https://awtmt.com/articles/3527755?from=wscn',
+		NULL,--"VIEWS",
+		NULL,--"IS_RECOMMEND",
+		NULL,--"CLICK_TIMES",
+		'comment',
+		'E:\DEMO\WALLSTREET\img',
+		'E:\DEMO\WALLSTREET\form',
+		'E:\DEMO\WALLSTREET\video',
+		'E:\DEMO\WALLSTREET\audio',
+		'E:\DEMO\WALLSTREET\pdf',
+		SYSDATE,
+		SYSDATE,
+		NULL,
+		NULL,
+		NULL
+	);
+
+
+
